@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h2>Cadastro</h2>
+    <form action="" class="box">
+        <div>
+            <label for="nome">Nome:</label>  
+            <input type="text" id="nome" name="nome">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"> -
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <br>
+        <div>
+            <label for="aniversario">Data de Nasc:</label>
+            <input type="date" name="aniversario" id="aniversario"> - 
+            <label for="foto">Foto:</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <br>
+        <div>
+            <label for="pais">Nacionalidade:</label> - 
+            <select name="pais" id="pais">
+                <option value="Brasieiro">Brasileira</option>
+                <option value="Americano">Americana</option>
+                <option value="Espanhol">Espanhola</option> -
+            </select>
+
+            Gênero:
+            <label for="feminino">F</label>
+            <input type="radio" name="feminino" id="feminino">
+            <label for="masculino">M</label>
+            <input type="radio" name="masculino" id="masculino">
+        </div>        
+        <br>
+        <div>
+            Principais Qualidades: <br>
+            <label for="int">Inteligência</label>
+            <input type="checkbox" name="int" id="int"> |
+            <label for="res">Resiliência</label>
+            <input type="checkbox" name="res" id="res">|
+            <label for="pf">Preparo Físico</label>
+            <input type="checkbox" name="pf" id="pf">|
+            <label for="emp">Empatia</label>
+            <input type="checkbox" name="emp" id="emp">            
+        </div>
+        <br>
+        <div>
+            <textarea name="area" id="area" cols="30" rows="10" placeholder="Por que  gostaria de trabalhar nesta empresa? "></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+   </form>
+</body>
+</html>
